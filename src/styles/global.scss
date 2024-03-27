@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-bg-color);
+  font-family:
+    var(--primary-font),
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: var(--secondary-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.css-levciy-MuiTablePagination-displayedRows, .MuiToolbar-root, .MuiTablePagination-displayedRows {
+  font-family: var(--primary-font) !important;
+  color: var(--secondary-color);
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root, .MuiSvgIcon-root {
+  color: var(--secondary-color);
+}
+
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled, .MuiTablePagination-actions.Mui-disabled {
+  color: rgba(255, 255, 255, 0.3) !important;
+
+}
